@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multi-component-child-rbqd
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-appstudio-qe/build-e2e-mxbe-tenant/build-suite-component-update-hrkx/multi-component-child-rbqd@sha256:1b7fd8c44f897a25fae351127d2732f8c71c9902dcf1a441d1f74585cad520c1
         imagePullPolicy: Always
         name: container-image
         ports:
